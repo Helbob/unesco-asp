@@ -8,7 +8,7 @@
     <div class="borgerskab">
     <img class="pic" src="" alt="">
     <div>
-        <h2 class="headinggreen"></h2>
+        <h2 class="headingorange"></h2>
         <p class="tekst2"></p>
         <p class="tekst"></p>
         <p class="indhold"></p>
