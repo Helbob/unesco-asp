@@ -1,0 +1,282 @@
+/* 
+Theme Name: vorestema
+Template: pinnacle
+Version: 1.0.5
+
+*/
+
+.tittleclass {
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: cover;
+}
+
+.headerclass {
+  background-color: #026b9e;
+}
+
+header {
+  background-color: #026b9e;
+}
+
+.footerclass {
+  background-color: #026b9e;
+  background: #026b9e;
+}
+
+footer {
+  background-color: #026b9e;
+  background: #026b9e;
+}
+
+.contentclass {
+  background-color: #f5f5f5;
+  background: #f5f5f5;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1250px;
+  }
+}
+
+.page-header {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  margin: 0;
+  text-align: center;
+  display: none;
+}
+
+.is-sticky .kad-primary-nav ul.sf-menu a,
+ul.sf-menu a,
+.none-trans-header .kad-primary-nav ul.sf-menu a {
+  font-family: Raleway;
+  font-weight: normal;
+  font-style: 400;
+  color: white;
+  font-size: 16px;
+}
+
+.retcontainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+  margin-top: 3%;
+  margin-bottom: 6%;
+}
+
+.retcontainer article {
+  max-width: 100%;
+  /* background-color: #619a45; */
+  background: #1a6b9b;
+  margin: 2%;
+}
+
+.retcontainer p {
+  margin: 3%;
+  color: white;
+  margin-bottom: 10%;
+  margin-top: 5%;
+}
+
+.retcontainer h2 {
+  background-color: rgba(0, 0, 0, 0.37);
+  color: white;
+  padding: 3%;
+  margin: 0%;
+  cursor: pointer;
+}
+
+.retcontainer article img {
+  width: 500px;
+  height: 300px;
+  object-fit: cover;
+  cursor: pointer;
+}
+/* #main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+} */
+
+.postclass,
+.woocommerce-tabs .panel {
+  background: #f5f5f5;
+}
+
+[class*="wp-image"] {
+  display: block;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.borgerskab {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin: 4%;
+}
+
+@media (min-width: 1200px) {
+  .col-lg-9 {
+    width: 100%;
+  }
+}
+
+.borgerskab img {
+  max-width: 85%;
+}
+
+/* udvikling */
+
+.retcontainer2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+  margin-top: 6%;
+  margin-bottom: 6%;
+}
+
+.retcontainer2 article {
+  max-width: 100%;
+  /* background-color: #619a45; */
+  background: #619a45;
+  margin: 2%;
+}
+
+.retcontainer2 p {
+  margin: 3%;
+  color: white;
+  margin-bottom: 10%;
+  margin-top: 5%;
+}
+
+.retcontainer2 h2 {
+  background-color: rgba(0, 0, 0, 0.37);
+  color: white;
+  padding: 3%;
+  margin: 0%;
+  cursor: pointer;
+}
+
+.retcontainer2 article img {
+  width: 500px;
+  height: 300px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+/*skole maal*/
+.retcontainer4 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+  margin-top: 6%;
+  margin-bottom: 6%;
+}
+
+.retcontainer4 article {
+  max-width: 100%;
+  background: #f59c2b;
+  margin: 2%;
+}
+
+.retcontainer4 p {
+  margin: 3%;
+  color: white;
+  margin-bottom: 10%;
+  margin-top: 5%;
+}
+
+.retcontainer4 h2 {
+  background-color: rgba(0, 0, 0, 0.37);
+  color: white;
+  padding: 3%;
+  margin: 0%;
+  cursor: pointer;
+}
+
+.retcontainer4 article img {
+  width: 500px;
+  height: 300px;
+  object-fit: cover;
+  cursor: pointer;
+}
+/* maal slut */
+
+/* details[open] summary ~ * {
+  animation: open 0.3s ease-in-out;
+}
+
+@keyframes open {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+details summary {
+  width: 100%;
+  padding: 0.5rem 0;
+  border-top: 1px solid black;
+  position: relative;
+  cursor: pointer;
+  font-size: 1.25rem;
+  font-weight: 300;
+  list-style: none;
+}
+
+details summary:after {
+  content: "+";
+  color: black;
+  position: absolute;
+  font-size: 1.75rem;
+  line-height: 0;
+  margin-top: 0.75rem;
+  right: 0;
+  font-weight: 200;
+  transform-origin: center;
+  transition: 200ms linear;
+}
+details[open] summary:after {
+  transform: rotate(45deg);
+  font-size: 2rem;
+}
+details summary {
+  outline: 0;
+}
+details p {
+  font-size: 0.95rem;
+  margin: 0 0 1rem;
+  padding-top: 1rem;
+} */
+
+article:hover {
+  -ms-transform: scale(1.05); /* IE 9 */
+  -webkit-transform: scale(1.05); /* Safari 3-8 */
+  transform: scale(1.05);
+  transition: transform 0.2s;
+}
+
+.oversigt {
+  text-align: center;
+}
