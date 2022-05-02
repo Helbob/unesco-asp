@@ -18,7 +18,7 @@
         <div id="content" class="container">
    	  	<div class="row">
 	<main id="main" class="site-main">
-    <h1>Global Medborgerskab</h1>
+    <h1>UNESCO Skolemål</h1>
 <section class="retcontainer4">
 </section>
 </div>
