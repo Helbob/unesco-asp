@@ -19,7 +19,7 @@
    	  	<div class="row">
 	<main id="main" class="site-main">
 <!-- <nav id="filtrering"></nav> -->
-    <h1>Bæredygtig Udvikling</h1>
+    <h1 class="oversigt">Bæredygtig Udvikling</h1>
 <section class="retcontainer2">
 </section>
 </div>
